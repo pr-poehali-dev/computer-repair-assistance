@@ -166,7 +166,7 @@ export default function Index() {
             </h1>
 
             <p className="text-muted-foreground text-lg leading-relaxed mb-8 max-w-lg">
-              Диагностируем, ремонтируем и защищаем вашу технику. Быстро, прозрачно, с гарантией результата.
+              Ремонт происходит только онлайн или с отправкой по России. Диагностируем, ремонтируем и защищаем вашу технику. Быстро, прозрачно, с гарантией результата.
             </p>
 
             <div className="flex flex-wrap gap-4">
@@ -452,7 +452,7 @@ export default function Index() {
 
           <div className="grid md:grid-cols-3 gap-6">
             {[
-              { icon: "Phone", label: "Телефон", value: "+7 (899) 972-22-44", sub: "Пн–Вс с 9:00 до 21:00" },
+              { icon: "Phone", label: "Телефон", value: "+7 (999) 722-24-47", sub: "Пн–Вс с 9:00 до 21:00" },
               { icon: "MapPin", label: "Адрес", value: "Центральный офис", sub: "" },
               { icon: "Clock", label: "График работы", value: "09:00 – 21:00", sub: "Без выходных" },
             ].map(item => (
@@ -470,7 +470,7 @@ export default function Index() {
           <div className="mt-10 glass-card rounded-xl p-8 text-center">
             <p className="text-muted-foreground text-sm mb-5">Срочный вопрос? Напишите нам прямо сейчас</p>
             <div className="flex flex-wrap gap-3 justify-center">
-              <a href="tel:+78999722244" className="neon-btn px-6 py-2.5 rounded-lg font-mono text-sm font-semibold inline-flex items-center gap-2">
+              <a href="tel:+79997222447" className="neon-btn px-6 py-2.5 rounded-lg font-mono text-sm font-semibold inline-flex items-center gap-2">
                 <Icon name="Phone" size={15} />
                 Позвонить
               </a>
