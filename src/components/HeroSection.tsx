@@ -17,7 +17,6 @@ const PRICES = [
   { service: "Замена SSD / HDD", price: "от 800 ₽", note: "без учёта детали" },
   { service: "Восстановление данных", price: "от 3 000 ₽", note: "зависит от случая" },
   { service: "Настройка роутера / Wi-Fi", price: "от 1 000 ₽", note: "" },
-  { service: "Ремонт материнской платы", price: "от 2 500 ₽", note: "диагностика включена" },
 ];
 
 export default function HeroSection() {
