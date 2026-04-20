@@ -96,7 +96,7 @@ export default function Index() {
               <Icon name="Cpu" size={16} className="text-neon" />
             </div>
             <span className="font-mono text-lg font-semibold tracking-wider text-white">
-              Tech<span className="text-neon">Fix</span>
+              S<span className="text-neon">Bitoc</span>
             </span>
           </a>
 
@@ -452,8 +452,8 @@ export default function Index() {
 
           <div className="grid md:grid-cols-3 gap-6">
             {[
-              { icon: "Phone", label: "Телефон", value: "+7 (999) 123-45-67", sub: "Пн–Вс с 9:00 до 21:00" },
-              { icon: "MapPin", label: "Адрес", value: "ул. Ленина, 42, оф. 7", sub: "Центральный район" },
+              { icon: "Phone", label: "Телефон", value: "+7 (899) 972-22-44", sub: "Пн–Вс с 9:00 до 21:00" },
+              { icon: "MapPin", label: "Адрес", value: "Центральный офис", sub: "" },
               { icon: "Clock", label: "График работы", value: "09:00 – 21:00", sub: "Без выходных" },
             ].map(item => (
               <div key={item.label} className="glass-card rounded-xl p-6 text-center">
@@ -470,11 +470,11 @@ export default function Index() {
           <div className="mt-10 glass-card rounded-xl p-8 text-center">
             <p className="text-muted-foreground text-sm mb-5">Срочный вопрос? Напишите нам прямо сейчас</p>
             <div className="flex flex-wrap gap-3 justify-center">
-              <a href="tel:+79991234567" className="neon-btn px-6 py-2.5 rounded-lg font-mono text-sm font-semibold inline-flex items-center gap-2">
+              <a href="tel:+78999722244" className="neon-btn px-6 py-2.5 rounded-lg font-mono text-sm font-semibold inline-flex items-center gap-2">
                 <Icon name="Phone" size={15} />
                 Позвонить
               </a>
-              <a href="https://t.me/" className="px-6 py-2.5 rounded-lg border border-[rgba(0,229,255,0.3)] text-neon font-mono text-sm font-semibold hover:bg-[rgba(0,229,255,0.08)] transition-all inline-flex items-center gap-2">
+              <a href="https://t.me/Bitoc_00" className="px-6 py-2.5 rounded-lg border border-[rgba(0,229,255,0.3)] text-neon font-mono text-sm font-semibold hover:bg-[rgba(0,229,255,0.08)] transition-all inline-flex items-center gap-2">
                 <Icon name="MessageCircle" size={15} />
                 Telegram
               </a>
@@ -494,9 +494,9 @@ export default function Index() {
             <div className="w-6 h-6 rounded border border-[rgba(0,229,255,0.4)] flex items-center justify-center">
               <Icon name="Cpu" size={12} className="text-neon" />
             </div>
-            <span className="font-mono text-sm font-semibold">Tech<span className="text-neon">Fix</span></span>
+            <span className="font-mono text-sm font-semibold">S<span className="text-neon">Bitoc</span></span>
           </div>
-          <p className="text-xs text-muted-foreground font-mono">© 2026 TechFix. Все права защищены.</p>
+          <p className="text-xs text-muted-foreground font-mono">© 2026 SBitoc. Все права защищены.</p>
           <div className="flex gap-4">
             {NAV_LINKS.slice(0, 4).map(l => (
               <a key={l.href} href={l.href} className="text-xs text-muted-foreground hover:text-neon transition-colors font-mono">
